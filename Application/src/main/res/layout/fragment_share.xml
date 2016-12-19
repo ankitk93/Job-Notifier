@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/font_dialog_min_height"
+    android:background="@color/white_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/fra_share_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/share_dialog_title_margin_left"
+        android:layout_marginTop="@dimen/share_dialog_title_margin_top"
+        android:text="@string/share_dialog_title"
+        android:textColor="?attr/category_title"
+        android:textSize="@dimen/dialog_title_txt_size" />
+    
+    <ListView
+        android:id="@+id/fra_share_list"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"        
+        android:layout_marginTop="@dimen/share_dialog_items_margin_top"
+        android:layout_below="@+id/fra_share_title" />    
+
+</RelativeLayout>

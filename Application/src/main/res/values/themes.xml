@@ -1,0 +1,331 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="NewApi">
+
+
+        <style name="AppTheme" parent="AppTheme.Base"/>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat">
+            <item name="windowActionBar">false</item>
+            <item name="android:textColorSecondary">@color/white_bg</item>
+            <item name="actionMenuTextColor">@color/white_bg</item>
+    </style>
+
+    <style name="PopupMenu" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:textColor">?attr/colorPrimaryDark</item>
+        <item name="android:background">@color/white_bg</item>
+    </style>
+
+    <style name="AppTheme.TranslucentActionBar">
+        <item name="android:actionBarStyle">@style/Widget.ActionBar.Transparent</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="actionBarStyle">@style/Widget.ActionBar.Transparent</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="AppTheme.Light.TranslucentActionBar" parent="Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/Widget.Light.ActionBar.Transparent</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="actionBarStyle">@style/Widget.Light.ActionBar.Transparent</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Theme.TranslucentActionBar" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/Widget.ActionBar</item>
+    </style>
+
+    <style name="Theme.TranslucentActionBar.ActionBar" />
+
+    <style name="Theme.TranslucentActionBar.ActionBar.Overlay">
+        <item name="android:actionBarStyle">@style/Widget.ActionBar.Transparent</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="blue" parent="AppTheme">
+        <item name="colorPrimary">@color/category_title</item>
+        <item name="colorPrimaryDark">@color/category_title</item>
+        <item name="magazine_ab_background_light">@drawable/ab_background_light</item>
+        <item name="magazine_ic_drawer">@drawable/ic_drawer</item>
+        <item name="magazine_home_category_item">@drawable/home_category_icon</item>
+        <item name="magazine_home_drawer_active_arrow">@drawable/home_drawer_active_arrow</item>
+        <item name="magazine_home_drawer_arrow">@drawable/home_drawer_arrow</item>
+        <item name="magazine_ic_action_font_size">@drawable/ic_action_font_size</item>
+        <item name="magazine_ic_action_overflow">@drawable/ic_action_overflow</item>
+        <item name="magazine_ic_action_share">@drawable/ic_action_share</item>
+        <item name="magazine_single_right_arrow">@drawable/home_drawer_arrow</item>
+        <item name="category_title">@color/category_title</item>
+        <item name="selector_list_item_categories_arrow">@drawable/selector_list_item_category_arrow</item>
+        <item name="selector_list_item_categories_textview">@drawable/selector_list_item_category_textview</item>
+        <item name="android:logo">@drawable/ic_launcher</item>
+        <item name="round_logo">@drawable/about_rounded_logo</item>
+        
+                
+    </style>
+
+    <style name="green" parent="AppTheme">
+        <item name="colorPrimary">@color/category_title_green</item>
+        <item name="colorPrimaryDark">@color/category_title_green</item>
+        <item name="magazine_ab_background_light">@drawable/green_ab_background_light</item>
+        <item name="magazine_ic_drawer">@drawable/green_ic_drawer</item>
+        <item name="magazine_home_category_item">@drawable/green_home_category_icon</item>
+        <item name="magazine_home_drawer_active_arrow">@drawable/green_home_drawer_active_arrow</item>
+        <item name="magazine_home_drawer_arrow">@drawable/green_home_drawer_arrow</item>
+        <item name="magazine_ic_action_font_size">@drawable/ic_action_font_size</item>
+        <item name="magazine_ic_action_overflow">@drawable/ic_action_overflow</item>
+        <item name="magazine_ic_action_share">@drawable/ic_action_share</item>
+        <item name="magazine_single_right_arrow">@drawable/green_home_drawer_arrow</item>
+        <item name="category_title">@color/category_title_green</item>
+        <item name="selector_list_item_categories_arrow">@drawable/selector_list_item_category_arrow_green</item>
+        <item name="selector_list_item_categories_textview">@drawable/selector_list_item_category_textview_green</item>
+        <item name="android:logo">@drawable/green_ic_launcher</item>
+        <item name="round_logo">@drawable/green_about_rounded_logo</item>
+    </style>
+    
+    <style name="pink" parent="AppTheme">
+        <item name="colorPrimary">@color/category_title_pink</item>
+        <item name="colorPrimaryDark">@color/category_title_pink</item>
+        <item name="magazine_ab_background_light">@drawable/pink_ab_background_light</item>
+        <item name="magazine_ic_drawer">@drawable/pink_ic_drawer</item>
+        <item name="magazine_home_category_item">@drawable/pink_home_category_icon</item>
+        <item name="magazine_home_drawer_active_arrow">@drawable/pink_home_drawer_active_arrow</item>
+        <item name="magazine_home_drawer_arrow">@drawable/pink_home_drawer_arrow</item>
+        <item name="magazine_ic_action_font_size">@drawable/ic_action_font_size</item>
+        <item name="magazine_ic_action_overflow">@drawable/ic_action_overflow</item>
+        <item name="magazine_ic_action_share">@drawable/ic_action_share</item>
+        <item name="magazine_single_right_arrow">@drawable/pink_home_drawer_arrow</item>
+        <item name="category_title">@color/category_title_pink</item>
+        <item name="selector_list_item_categories_arrow">@drawable/selector_list_item_category_arrow_pink</item>
+        <item name="selector_list_item_categories_textview">@drawable/selector_list_item_category_textview_pink</item>
+        <item name="android:logo">@drawable/pink_ic_launcher</item>
+        <item name="round_logo">@drawable/pink_about_rounded_logo</item>
+    </style>
+    
+    <style name="dark" parent="AppTheme">
+        <item name="colorPrimary">@color/category_title_dark</item>
+        <item name="colorPrimaryDark">@color/category_title_dark</item>
+        <item name="magazine_ab_background_light">@drawable/dark_ab_background_light</item>
+        <item name="magazine_ic_drawer">@drawable/dark_ic_drawer</item>
+        <item name="magazine_home_category_item">@drawable/dark_home_category_icon</item>
+        <item name="magazine_home_drawer_active_arrow">@drawable/dark_home_drawer_active_arrow</item>
+        <item name="magazine_home_drawer_arrow">@drawable/dark_home_drawer_arrow</item>
+        <item name="magazine_ic_action_font_size">@drawable/ic_action_font_size</item>
+        <item name="magazine_ic_action_overflow">@drawable/ic_action_overflow</item>
+        <item name="magazine_ic_action_share">@drawable/ic_action_share</item>
+        <item name="magazine_single_right_arrow">@drawable/dark_home_drawer_arrow</item>
+        <item name="category_title">@color/category_title_dark</item>
+        <item name="selector_list_item_categories_arrow">@drawable/selector_list_item_category_arrow_dark</item>
+        <item name="selector_list_item_categories_textview">@drawable/selector_list_item_category_textview_dark</item>
+        <item name="android:logo">@drawable/dark_ic_launcher</item>
+        <item name="round_logo">@drawable/dark_about_rounded_logo</item>
+    </style>
+    
+    <style name="orange" parent="AppTheme">
+        <item name="colorPrimary">@color/category_title_orange</item>
+        <item name="colorPrimaryDark">@color/category_title_orange</item>
+        <item name="magazine_ab_background_light">@drawable/orange_ab_background_light</item>
+        <item name="magazine_ic_drawer">@drawable/orange_ic_drawer</item>
+        <item name="magazine_home_category_item">@drawable/orange_home_category_icon</item>
+        <item name="magazine_home_drawer_active_arrow">@drawable/orange_home_drawer_active_arrow</item>
+        <item name="magazine_home_drawer_arrow">@drawable/orange_home_drawer_arrow</item>
+        <item name="magazine_ic_action_font_size">@drawable/ic_action_font_size</item>
+        <item name="magazine_ic_action_overflow">@drawable/ic_action_overflow</item>
+        <item name="magazine_ic_action_share">@drawable/ic_action_share</item>
+        <item name="magazine_single_right_arrow">@drawable/orange_home_drawer_arrow</item>
+        <item name="category_title">@color/category_title_orange</item>
+        <item name="selector_list_item_categories_arrow">@drawable/selector_list_item_category_arrow_orange</item>
+        <item name="selector_list_item_categories_textview">@drawable/selector_list_item_category_textview_orange</item>
+        <item name="android:logo">@drawable/orange_ic_launcher</item>
+        <item name="round_logo">@drawable/orange_about_rounded_logo</item>
+    </style>
+    
+    <style name="red" parent="AppTheme">
+        <item name="colorPrimary">@color/category_title_red</item>
+        <item name="colorPrimaryDark">@color/category_title_red</item>
+        <item name="magazine_ab_background_light">@drawable/red_ab_background_light</item>
+        <item name="magazine_ic_drawer">@drawable/red_ic_drawer</item>
+        <item name="magazine_home_category_item">@drawable/red_home_category_icon</item>
+        <item name="magazine_home_drawer_active_arrow">@drawable/red_home_drawer_active_arrow</item>
+        <item name="magazine_home_drawer_arrow">@drawable/red_home_drawer_arrow</item>
+        <item name="magazine_ic_action_font_size">@drawable/ic_action_font_size</item>
+        <item name="magazine_ic_action_overflow">@drawable/ic_action_overflow</item>
+        <item name="magazine_ic_action_share">@drawable/ic_action_share</item>
+        <item name="magazine_single_right_arrow">@drawable/red_home_drawer_arrow</item>
+        <item name="category_title">@color/category_title_red</item>
+        <item name="selector_list_item_categories_arrow">@drawable/selector_list_item_category_arrow_red</item>
+        <item name="selector_list_item_categories_textview">@drawable/selector_list_item_category_textview_red</item>
+        <item name="android:logo">@drawable/red_ic_launcher</item>
+        <item name="round_logo">@drawable/red_about_rounded_logo</item>
+    </style>
+
+    <style name="bluegray" parent="AppTheme">
+        <item name="colorPrimary">@color/category_title_bluegray</item>
+        <item name="colorPrimaryDark">@color/category_title_bluegray</item>
+        <item name="magazine_ab_background_light">@drawable/bluegray_ab_background_light</item>
+        <item name="magazine_ic_drawer">@drawable/red_ic_drawer</item>
+        <item name="magazine_home_category_item">@drawable/bluegray_home_category_icon</item>
+        <item name="magazine_home_drawer_active_arrow">@drawable/bluegray_home_drawer_active_arrow</item>
+        <item name="magazine_home_drawer_arrow">@drawable/bluegray_home_drawer_arrow</item>
+        <item name="magazine_ic_action_font_size">@drawable/ic_action_font_size</item>
+        <item name="magazine_ic_action_overflow">@drawable/ic_action_overflow</item>
+        <item name="magazine_ic_action_share">@drawable/ic_action_share</item>
+        <item name="magazine_single_right_arrow">@drawable/bluegray_home_drawer_arrow</item>
+        <item name="category_title">@color/category_title_bluegray</item>
+        <item name="selector_list_item_categories_arrow">@drawable/selector_list_item_category_arrow_bluegray</item>
+        <item name="selector_list_item_categories_textview">@drawable/selector_list_item_category_textview_bluegray</item>
+        <item name="android:logo">@drawable/bluegray_ic_launcher</item>
+        <item name="round_logo">@drawable/bluegray_about_rounded_logo</item>
+    </style>
+
+    <style name="brown" parent="AppTheme">
+        <item name="colorPrimary">@color/category_title_brown</item>
+        <item name="colorPrimaryDark">@color/category_title_brown</item>
+        <item name="magazine_ab_background_light">@drawable/brown_ab_background_light</item>
+        <item name="magazine_ic_drawer">@drawable/red_ic_drawer</item>
+        <item name="magazine_home_category_item">@drawable/brown_home_category_icon</item>
+        <item name="magazine_home_drawer_active_arrow">@drawable/brown_home_drawer_active_arrow</item>
+        <item name="magazine_home_drawer_arrow">@drawable/brown_home_drawer_arrow</item>
+        <item name="magazine_ic_action_font_size">@drawable/ic_action_font_size</item>
+        <item name="magazine_ic_action_overflow">@drawable/ic_action_overflow</item>
+        <item name="magazine_ic_action_share">@drawable/ic_action_share</item>
+        <item name="magazine_single_right_arrow">@drawable/brown_home_drawer_arrow</item>
+        <item name="category_title">@color/category_title_brown</item>
+        <item name="selector_list_item_categories_arrow">@drawable/selector_list_item_category_arrow_brown</item>
+        <item name="selector_list_item_categories_textview">@drawable/selector_list_item_category_textview_brown</item>
+        <item name="android:logo">@drawable/brown_ic_launcher</item>
+        <item name="round_logo">@drawable/brown_about_rounded_logo</item>
+    </style>
+
+    <style name="cyan" parent="AppTheme">
+        <item name="colorPrimary">@color/category_title_cyan</item>
+        <item name="colorPrimaryDark">@color/category_title_cyan</item>
+        <item name="magazine_ab_background_light">@drawable/cyan_ab_background_light</item>
+        <item name="magazine_ic_drawer">@drawable/red_ic_drawer</item>
+        <item name="magazine_home_category_item">@drawable/cyan_home_category_icon</item>
+        <item name="magazine_home_drawer_active_arrow">@drawable/cyan_home_drawer_active_arrow</item>
+        <item name="magazine_home_drawer_arrow">@drawable/cyan_home_drawer_arrow</item>
+        <item name="magazine_ic_action_font_size">@drawable/ic_action_font_size</item>
+        <item name="magazine_ic_action_overflow">@drawable/ic_action_overflow</item>
+        <item name="magazine_ic_action_share">@drawable/ic_action_share</item>
+        <item name="magazine_single_right_arrow">@drawable/cyan_home_drawer_arrow</item>
+        <item name="category_title">@color/category_title_cyan</item>
+        <item name="selector_list_item_categories_arrow">@drawable/selector_list_item_category_arrow_cyan</item>
+        <item name="selector_list_item_categories_textview">@drawable/selector_list_item_category_textview_cyan</item>
+        <item name="android:logo">@drawable/cyan_ic_launcher</item>
+        <item name="round_logo">@drawable/cyan_about_rounded_logo</item>
+    </style>
+
+    <style name="lightpink" parent="AppTheme">
+        <item name="colorPrimary">@color/category_title_lightpink</item>
+        <item name="colorPrimaryDark">@color/category_title_lightpink</item>
+        <item name="magazine_ab_background_light">@drawable/lightpink_ab_background_light</item>
+        <item name="magazine_ic_drawer">@drawable/red_ic_drawer</item>
+        <item name="magazine_home_category_item">@drawable/lightpink_home_category_icon</item>
+        <item name="magazine_home_drawer_active_arrow">@drawable/lightpink_home_drawer_active_arrow</item>
+        <item name="magazine_home_drawer_arrow">@drawable/lightpink_home_drawer_arrow</item>
+        <item name="magazine_ic_action_font_size">@drawable/ic_action_font_size</item>
+        <item name="magazine_ic_action_overflow">@drawable/ic_action_overflow</item>
+        <item name="magazine_ic_action_share">@drawable/ic_action_share</item>
+        <item name="magazine_single_right_arrow">@drawable/lightpink_home_drawer_arrow</item>
+        <item name="category_title">@color/category_title_lightpink</item>
+        <item name="selector_list_item_categories_arrow">@drawable/selector_list_item_category_arrow_lightpink</item>
+        <item name="selector_list_item_categories_textview">@drawable/selector_list_item_category_textview_lightpink</item>
+        <item name="android:logo">@drawable/lightpink_ic_launcher</item>
+        <item name="round_logo">@drawable/lightpink_about_rounded_logo</item>
+    </style>
+
+    <style name="lime" parent="AppTheme">
+        <item name="colorPrimary">@color/category_title_lime</item>
+        <item name="colorPrimaryDark">@color/category_title_lime</item>
+        <item name="magazine_ab_background_light">@drawable/lime_ab_background_light</item>
+        <item name="magazine_ic_drawer">@drawable/red_ic_drawer</item>
+        <item name="magazine_home_category_item">@drawable/lime_home_category_icon</item>
+        <item name="magazine_home_drawer_active_arrow">@drawable/lime_home_drawer_active_arrow</item>
+        <item name="magazine_home_drawer_arrow">@drawable/lime_home_drawer_arrow</item>
+        <item name="magazine_ic_action_font_size">@drawable/ic_action_font_size</item>
+        <item name="magazine_ic_action_overflow">@drawable/ic_action_overflow</item>
+        <item name="magazine_ic_action_share">@drawable/ic_action_share</item>
+        <item name="magazine_single_right_arrow">@drawable/lime_home_drawer_arrow</item>
+        <item name="category_title">@color/category_title_lime</item>
+        <item name="selector_list_item_categories_arrow">@drawable/selector_list_item_category_arrow_lime</item>
+        <item name="selector_list_item_categories_textview">@drawable/selector_list_item_category_textview_lime</item>
+        <item name="android:logo">@drawable/lime_ic_launcher</item>
+        <item name="round_logo">@drawable/lime_about_rounded_logo</item>
+    </style>
+
+    <style name="lightgreen" parent="AppTheme">
+        <item name="colorPrimary">@color/category_title_lightgreen</item>
+        <item name="colorPrimaryDark">@color/category_title_lightgreen</item>
+        <item name="magazine_ab_background_light">@drawable/lightgreen_ab_background_light</item>
+        <item name="magazine_ic_drawer">@drawable/red_ic_drawer</item>
+        <item name="magazine_home_category_item">@drawable/lightgreen_home_category_icon</item>
+        <item name="magazine_home_drawer_active_arrow">@drawable/lightgreen_home_drawer_active_arrow</item>
+        <item name="magazine_home_drawer_arrow">@drawable/lightgreen_home_drawer_arrow</item>
+        <item name="magazine_ic_action_font_size">@drawable/ic_action_font_size</item>
+        <item name="magazine_ic_action_overflow">@drawable/ic_action_overflow</item>
+        <item name="magazine_ic_action_share">@drawable/ic_action_share</item>
+        <item name="magazine_single_right_arrow">@drawable/lightgreen_home_drawer_arrow</item>
+        <item name="category_title">@color/category_title_lightgreen</item>
+        <item name="selector_list_item_categories_arrow">@drawable/selector_list_item_category_arrow_lightgreen</item>
+        <item name="selector_list_item_categories_textview">@drawable/selector_list_item_category_textview_lightgreen</item>
+        <item name="android:logo">@drawable/lightgreen_ic_launcher</item>
+        <item name="round_logo">@drawable/lightgreen_about_rounded_logo</item>
+    </style>
+
+    <style name="teal" parent="AppTheme">
+        <item name="colorPrimary">@color/category_title_teal</item>
+        <item name="colorPrimaryDark">@color/category_title_teal</item>
+        <item name="magazine_ab_background_light">@drawable/teal_ab_background_light</item>
+        <item name="magazine_ic_drawer">@drawable/red_ic_drawer</item>
+        <item name="magazine_home_category_item">@drawable/teal_home_category_icon</item>
+        <item name="magazine_home_drawer_active_arrow">@drawable/teal_home_drawer_active_arrow</item>
+        <item name="magazine_home_drawer_arrow">@drawable/teal_home_drawer_arrow</item>
+        <item name="magazine_ic_action_font_size">@drawable/ic_action_font_size</item>
+        <item name="magazine_ic_action_overflow">@drawable/ic_action_overflow</item>
+        <item name="magazine_ic_action_share">@drawable/ic_action_share</item>
+        <item name="magazine_single_right_arrow">@drawable/teal_home_drawer_arrow</item>
+        <item name="category_title">@color/category_title_teal</item>
+        <item name="selector_list_item_categories_arrow">@drawable/selector_list_item_category_arrow_teal</item>
+        <item name="selector_list_item_categories_textview">@drawable/selector_list_item_category_textview_teal</item>
+        <item name="android:logo">@drawable/teal_ic_launcher</item>
+        <item name="round_logo">@drawable/teal_about_rounded_logo</item>
+    </style>
+
+    <style name="indigo" parent="AppTheme">
+        <item name="colorPrimary">@color/category_title_indigo</item>
+        <item name="colorPrimaryDark">@color/category_title_indigo</item>
+        <item name="magazine_ab_background_light">@drawable/indigo_ab_background_light</item>
+        <item name="magazine_ic_drawer">@drawable/red_ic_drawer</item>
+        <item name="magazine_home_category_item">@drawable/indigo_home_category_icon</item>
+        <item name="magazine_home_drawer_active_arrow">@drawable/indigo_home_drawer_active_arrow</item>
+        <item name="magazine_home_drawer_arrow">@drawable/indigo_home_drawer_arrow</item>
+        <item name="magazine_ic_action_font_size">@drawable/ic_action_font_size</item>
+        <item name="magazine_ic_action_overflow">@drawable/ic_action_overflow</item>
+        <item name="magazine_ic_action_share">@drawable/ic_action_share</item>
+        <item name="magazine_single_right_arrow">@drawable/indigo_home_drawer_arrow</item>
+        <item name="category_title">@color/category_title_indigo</item>
+        <item name="selector_list_item_categories_arrow">@drawable/selector_list_item_category_arrow_indigo</item>
+        <item name="selector_list_item_categories_textview">@drawable/selector_list_item_category_textview_indigo</item>
+        <item name="android:logo">@drawable/indigo_ic_launcher</item>
+        <item name="round_logo">@drawable/indigo_about_rounded_logo</item>
+    </style>
+
+    <style name="lightpurple" parent="AppTheme">
+        <item name="colorPrimary">@color/category_title_lightpurple</item>
+        <item name="colorPrimaryDark">@color/category_title_lightpurple</item>
+        <item name="magazine_ab_background_light">@drawable/lightpurple_ab_background_light</item>
+        <item name="magazine_ic_drawer">@drawable/red_ic_drawer</item>
+        <item name="magazine_home_category_item">@drawable/lightpurple_home_category_icon</item>
+        <item name="magazine_home_drawer_active_arrow">@drawable/lightpurple_home_drawer_active_arrow</item>
+        <item name="magazine_home_drawer_arrow">@drawable/lightpurple_home_drawer_arrow</item>
+        <item name="magazine_ic_action_font_size">@drawable/ic_action_font_size</item>
+        <item name="magazine_ic_action_overflow">@drawable/ic_action_overflow</item>
+        <item name="magazine_ic_action_share">@drawable/ic_action_share</item>
+        <item name="magazine_single_right_arrow">@drawable/lightpurple_home_drawer_arrow</item>
+        <item name="category_title">@color/category_title_lightpurple</item>
+        <item name="selector_list_item_categories_arrow">@drawable/selector_list_item_category_arrow_lightpurple</item>
+        <item name="selector_list_item_categories_textview">@drawable/selector_list_item_category_textview_lightpurple</item>
+        <item name="android:logo">@drawable/lightpurple_ic_launcher</item>
+        <item name="round_logo">@drawable/lightpurple_about_rounded_logo</item>
+    </style>
+    
+    </resources>

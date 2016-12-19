@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <!-- Dialogs title -->
+    <dimen name="dialog_title_txt_size">24sp</dimen>
+    
+    <!-- Font Size Dialog -->
+    <dimen name="font_dialog_min_height">350dp</dimen>
+    <dimen name="font_dialog_seekbar_left_img_margin_top">66dp</dimen>
+    <dimen name="font_dialog_seekbar_left_img_margin_left">16dp</dimen>
+	<dimen name="font_dialog_seekbar_right_img_margin_top">58dp</dimen>
+	<dimen name="font_dialog_seekbar_right_img_margin_right">20dp</dimen>
+	<dimen name="font_dialog_seekbar_margin">10dp</dimen>
+	<dimen name="font_dialog_seekbar_margin_top">58dp</dimen>
+	<dimen name="font_dialog_title_margin_left_right">10dp</dimen>
+	<dimen name="font_dialog_title_margin_top">8dp</dimen>
+	<dimen name="font_dialog_example_title_margin_top">30dp</dimen>
+	<dimen name="font_dialog_example_title_margin_left">20dp</dimen>
+	<dimen name="font_dialog_example_text_margins">26dp</dimen>
+	
+	<!-- Share Dialog -->
+	<dimen name="share_dialog_title_margin_top">8dp</dimen>
+	<dimen name="share_dialog_title_margin_left">10dp</dimen>
+	
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+	<string name="app_name">Material News</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="open_dr_desc">Choose category</string>
+    <string name="feedback">Rate App</string>
+	<string name="about">About</string>
+
+    <!-- AdMob ID -->
+	<string name="admob_id">ca-app-pub-3940256099942544/6300978111</string>
+	
+	<!-- Share Dialog Strings -->
+	<string name="share_dialog_title">Share</string>
+	
+	<!-- Font Size Dialog Strings -->
+	<string name="font_dialog_title">Text size</string>
+	
+	<!-- Rate -->
+    <string name="cannot_launch_market">Android market application is not installed.</string>
+
+</resources>

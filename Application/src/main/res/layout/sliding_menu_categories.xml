@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/sliding_menu_about_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_list_item_category"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="20dp"
+        android:visibility="visible" >
+
+        <ImageView
+            android:id="@+id/logo_image"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:src="?attr/round_logo" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.6"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/sliding_menu_blog_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/sliding_menu_text"
+                android:textSize="24sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/sliding_menu_blog_url"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/sliding_menu_text"
+                android:textSize="14sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/sliding_menu_blog_mail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/sliding_menu_text"
+                android:textSize="14sp" >
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/sliding_menu_categories_lv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+        android:divider="@color/sliding_selected_state"
+        android:dividerHeight="1dp"
+        android:overScrollMode="never"
+        android:scrollbars="none" />
+
+</LinearLayout>

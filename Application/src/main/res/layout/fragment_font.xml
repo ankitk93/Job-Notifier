@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white_bg"
+    android:minHeight="@dimen/font_dialog_min_height"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/fra_font_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/font_dialog_title_margin_left_right"
+        android:layout_marginTop="@dimen/font_dialog_title_margin_top"
+        android:text="@string/font_dialog_title"
+        android:textColor="?attr/category_title"
+        android:textSize="@dimen/dialog_title_txt_size" />
+
+    <TextView
+        android:id="@+id/fra_font_left_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/fra_font_title"
+        android:layout_marginLeft="@dimen/font_dialog_seekbar_left_img_margin_left"
+        android:layout_marginTop="@dimen/font_dialog_seekbar_left_img_margin_top"
+        android:text="aA"
+        android:textColor="@color/single_post_text"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/fra_font_righ_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/fra_font_title"
+        android:layout_marginRight="@dimen/font_dialog_seekbar_right_img_margin_right"
+        android:layout_marginTop="@dimen/font_dialog_seekbar_right_img_margin_top"
+        android:text="aA"
+        android:textColor="@color/single_post_text"
+        android:textSize="22sp" />
+
+    <SeekBar
+        android:id="@+id/fra_font_seekbark"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fra_font_title"
+        android:layout_marginLeft="@dimen/font_dialog_seekbar_margin"
+        android:layout_marginRight="@dimen/font_dialog_seekbar_margin"
+        android:layout_marginTop="@dimen/font_dialog_seekbar_margin_top"
+        android:layout_toLeftOf="@id/fra_font_righ_image"
+        android:layout_toRightOf="@id/fra_font_left_image" />
+
+    <TextView
+        android:id="@+id/fra_font_example_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fra_font_left_image"
+        android:layout_marginLeft="@dimen/font_dialog_example_title_margin_left"
+        android:layout_marginTop="@dimen/font_dialog_example_title_margin_top"
+        android:text="Example"
+        android:textColor="@color/font_example"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/fra_font_example_text"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@id/fra_font_example_title"
+        android:layout_marginLeft="@dimen/font_dialog_example_text_margins"
+        android:layout_marginRight="@dimen/font_dialog_example_text_margins"
+        android:layout_marginTop="5dp"
+        android:text="This is example with the text size you selected."
+        android:textColor="@color/category_date" />
+
+    <View
+        android:id="@+id/fra_font_dilimiter"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/fra_font_example_text"
+        android:layout_marginTop="10dp"
+        android:background="@color/category_date" />
+
+    <TextView
+        android:id="@+id/fra_font_done_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/fra_font_dilimiter"
+        android:gravity="center"
+        android:text="Done"
+        android:textColor="@color/category_date"
+        android:textSize="18sp" />
+
+</RelativeLayout>

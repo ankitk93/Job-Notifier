@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="header">
+        <attr name="magazine_ab_background_light" format="reference" />
+        <attr name="magazine_ic_drawer" format="reference" />
+        <attr name="magazine_ic_action_font_size" format="reference"></attr>
+        <attr name="magazine_ic_action_overflow" format="reference"></attr>
+        <attr name="magazine_ic_action_share" format="reference"></attr>
+    </declare-styleable>
+    
+    <declare-styleable name="home">
+        <attr name="magazine_home_category_item" format="reference" />
+        <attr name="magazine_home_drawer_active_arrow" format="reference"></attr>
+        <attr name="magazine_home_drawer_arrow" format="reference"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="single">
+        <attr name="magazine_single_right_arrow" format="reference" />
+        <attr name="magazine_single_item_round" format="reference" />
+        
+    </declare-styleable>
+
+    <declare-styleable name="colors">
+        <attr name="category_title" format="reference" />
+        <attr name="overflow_bg" format="reference" />
+    </declare-styleable>
+    
+    <declare-styleable name="categories">
+        <attr name="selector_list_item_categories_arrow" format="reference" />
+        <attr name="selector_list_item_categories_textview" format="reference" />
+        <attr name="round_logo" format="reference" />
+    </declare-styleable>
+    
+</resources>

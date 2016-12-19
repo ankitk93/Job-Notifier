@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="category_title">#289eda</color>
+    <color name="category_title_green">#6abf58</color>
+    <color name="category_title_pink">#bc0d35</color>
+    <color name="category_title_orange">#ff6600</color>
+    <color name="category_title_dark">#2b2e2e</color>
+    <color name="category_title_red">#b9121b</color>
+    <color name="category_title_bluegray">#90a4ae</color>
+    <color name="category_title_brown">#a1887f</color>
+    <color name="category_title_cyan">#80deea</color>
+    <color name="category_title_lightpink">#f48fb1</color>
+    <color name="category_title_lime">#dce775</color>
+    <color name="category_title_lightgreen">#aed581</color>
+    <color name="category_title_teal">#80cbc4</color>
+    <color name="category_title_indigo">#9fa8da</color>
+    <color name="category_title_lightpurple">#ce93d8</color>
+    
+    <color name="category_text">#333333</color>
+    <color name="category_date">#666666</color>
+    <color name="sliding_menu_text">#333333</color>
+    <color name="separator">#e9e9e9</color>
+    
+    
+    <color name="sliding_selected_state">#e9e9e9</color>
+    <color name="white_bg">#fefefe</color>
+    
+    <color name="single_post_text">#333333</color>
+    
+    <color name="white_bg_90_transparent">#e6fefefe</color>
+    
+    <color name="font_example">#999999</color>
+
+    <!-- Loading Dialog -->
+    <color name="loading_color">#FFFFFF</color>
+
+    <!-- Home Grid Item -->
+    <color name="grid_bg">#ededed</color>
+    <color name="grid_item_title_bg">#ffffff</color>
+    
+</resources>
